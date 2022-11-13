@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InsertActivity" >
+
+    <EditText
+        android:id="@+id/editTextInsertId"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:hint="Enter Id" >
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextInsertName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:hint="Enter Name" />
+
+    <EditText
+        android:id="@+id/editTextInsertAddress"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:hint="Enter Address"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/buttonInsertValues"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Insert Values" />
+
+    <Button
+        android:id="@+id/buttonUpdateValues"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Update Values" />
+
+    <Button
+        android:id="@+id/buttonDeleteValues"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:text="Delete Values" />
+
+</LinearLayout>
